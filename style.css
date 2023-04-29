@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding: 30px 0 10px 0; 
+    text-align: center;  
+}
+
+.sub_header {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 10px 0 10px 0; 
+    text-align: center;  
+}
+
+.piano-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.piano {
+    position: relative;
+    height: 290px;
+    width:fit-content;
+    padding: 90px 30px 0 30px;
+    background-color: #fc8989;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.black_keys {
+    position: absolute;
+    display: flex;
+}
+
+.white_keys {
+    display: flex;
+}
+
+.white_key {
+    width: 68px;
+    height: 280px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    border: solid whitesmoke 2px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 10px;
+}
+
+.white_key h1, .sound {
+    margin-top: 300%;
+}
+
+.black_key {
+    width: 38px;
+    height: 160px;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.black_key h1, .sound {
+    margin-top: 4em;
+}
+
+.black_key:nth-child(1) {
+    left: 48px;
+}
+
+.black_key:nth-child(2) {
+    left: 117px;
+}
+
+.black_key:nth-child(3) {
+    left: 253px;
+}
+
+.black_key:nth-child(4) {
+    left: 320px;
+}
+
+.black_key:nth-child(5) {
+    left: 389px;
+}
+
+.playing {
+    background-color: aquamarine;
+    color: black;
+}
+
